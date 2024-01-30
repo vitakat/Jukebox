@@ -1,0 +1,32 @@
+
+body { /* layout */
+	min-height: calc(100vh - 3em);
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.playmusic {
+	display: none;
+}
+
+.achtergrondJazz {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(0,212,255,1) 100%);
+}
+
+.achtergrondMetal {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(173,105,218,1) 100%);
+}
+
+#pop {
+	left:10px;
+	bottom:10px;
+	max-width: 70%;
+	max-height: 70%;
+	display: block	
+	margin: 10px;
+}
+

@@ -1,0 +1,18 @@
+
+body { /* layout */
+min-height: calc(100vh - 3em);
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+body { /* tekst stijl */
+background: white;
+color: #333;  /* donkergrijs: deze tekst is slecht leesbaar op een zwarte achtergrond */
+font-family: sans-serif;
+text-align: center;
+}
+
+
+
+
